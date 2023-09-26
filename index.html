@@ -1,0 +1,78 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Javier Solares, UMass Lowell Computer Science, Javier_Solares@student.uml.edu
+Copyright (c) 2023 by Javier. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JS on September, 2023 at 3:18 PM
+Description: This is the main webpage, from here it gives a short, but interesting 
+reading about the upcoming NBA season. Below the reading is a list of the top
+5 teams that I predicted. Each one is a link that takes you to a page where I
+talk about the new look teams.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="stylesheet" href="css/main_page_styles.css">
+    <meta charset="utf-8">
+    <title>Top 5 Teams of the 2023-24 NBA Season</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+	<body>
+		<div class = "background_contain">
+			<!-- This is the main header for my website; a title to attract users to read the rest of the page -->
+			<h1><span>NBA IS BACK! These Are The Top 5 Teams Heading Into the 2023-24 Season</span></h1>
+			<h5>By Javier Solares</h5>
+			
+			<!-- Source: https://www.marca.com/en/basketball/nba/2023/08/09/64d3fe6c22601d9d358b456c.html -->
+			<img src="images/NBA_Top_Players.jpg" alt="NBA's top players" class="top_players" width="550" height="375"> 
+
+			<!-- This is the paragraph where I welcome visitors to read more -->
+			<p>Hello NBA fanatics! It's that time of year again when everyone predicts which team will rise among the rest. 
+			Which team is going to claim the Larry O'Brien trophy at the end and cement their legacy? Will this be LeBron's final run? 
+			Can Tatum finally get over the hump and raise Banner 18 into the rafters? How good will the offensive firepower of the 
+			KD-Booker-Beal trio be against the rest of the league? Is this a revenge season for the Bucks after the quick, disappointing 
+			end in last year's playoffs. Or will Jokic, Murray, and the rest of the squad dominate and repeat as champions. Lets take a look
+			and dive into the top 5 teams that I believe will be competing for the bragging rights this year.</p>
+			
+			<!-- I use a span here so I could add an overline in my .css file because I already have an underline under <h1> -->
+			<h1><span>RANKINGS</span></h1>
+
+			<!-- Added a <div class> to center the list in a neat way -->
+			<div class="container">
+				<!-- These are the rankings of the top 5 teams; I'll create seperate links for each discussing why I believe they're in the correct order -->
+				<ol>
+					<li><a href="Denver.html">DENVER NUGGETS</a></li>
+					<li><a href="Boston.html">BOSTON CELTICS</a></li>
+					<li><a href="Phoenix.html">PHOENIX SUNS</a></li>
+					<li><a href="Milwaukee.html">MILWAUKEE BUCKS</a></li>
+					<li><a href="LosAngeles.html">LOS ANGELES LAKERS</a></li>
+				</ol>
+			</div>
+
+			<!-- CSS Validator image -->
+			<p class="validator">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss"
+						alt="Valid CSS!" 
+						class="goldCSS"/>
+				</a>
+			</p>
+
+			<p class="validator">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+						alt="Valid CSS!" 
+						class="blueCSS"/>
+					</a>
+			</p>
+			
+		</div>
+	</body>
+	<!-- <script src="script.js"></script> -->
+</html>
